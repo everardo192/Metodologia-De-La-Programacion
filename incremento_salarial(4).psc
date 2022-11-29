@@ -1,15 +1,18 @@
-// Algoritmo de Incremento Salarial
-// Autor Everardo Guadalupe Torres
-// Fecha: 03 de noviembre 2022
-
 Algoritmo incremento_salarial
+	Escribir " Algoritmo de incremento salarial ";
+	Escribir " Autor: Everardo Guadalupe Torres Tovar ";
+	Escribir " Fecha: 28/10/2022 ";
+	Escribir "----------------------------------------------";
+	Escribir "";
 	
-	// Paso 1 Solicitar el salario actual
 	Definir salario Como Real;
-	Escribir Sin Saltar "Ingresar salario ";
+	Escribir Sin Saltar " Ingresa tu salario ";
 	Leer salario;
-	// salario(1.25)
-	// Paso 4 Dar a conocer el nuevo salario
-	Escribir "Nuevo salario ", salario* 1.25;
+	
+	Si salario  >= 0 Entonces
+		Escribir " Nuevo salario ", salario * 1.25;
+	FinSi
+	Si salario < 0 Entonces
+		Escribir " El salario ", salario, " es un valor incorrecto ";
+	FinSi
 FinAlgoritmo
-

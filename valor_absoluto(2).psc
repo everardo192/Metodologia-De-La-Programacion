@@ -1,16 +1,16 @@
-//Algoritmo de calcular el valor absoluto
-//Autor: Everardo Guadalupe Torres
-//Fecha: 03 de noviembre del 2022
 Algoritmo valor_absoluto
-	Escribir "Algoritmo de valor absoluto";
-	Escribir "**************************";
-	//Paso 1: ingrese el valor
-	Definir n Como Real;
-	Escribir "Ingrese el valor ";
+	Escribir " Algoritmo valor absoluto ";
+	Escribir " Autor: Everardo Guadalupe Torres Tovar ";
+	Escribir " Fecha: 28/11/2022 ";
+	Escribir "********************************";
+	Escribir "";
+	
+	Definir x Como Real;
+	Escribir " Ingrese el valor ";
 	Leer x;
-	//paso 2: calcula el valor absoluto
 	Definir absolute Como Real;
-	absolute<- abs(x);
-	//paso 3:desplega el resultado
-	Escribir "El valor absoluto ", absolute;
+	Si x < 0 Entonces
+		absolute <- x * (-1);
+	FinSi
+	Escribir "El Valor Absoluto ", absolute;
 FinAlgoritmo
